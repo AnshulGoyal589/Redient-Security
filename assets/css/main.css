@@ -869,16 +869,37 @@ section,
     line-height: 36px;
   }
 }
+
+@media (min-width: 1001px){
+  #ui{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .mui{
+    width: 100vw;
+    height: 50%;
+  }
+  .muiimg{
+    width: 100vw;
+    height: 50%;
+  }
+  
+}
+
 @media (max-width: 1000px) {
   #ui{
     /* border: 2px solid black; */
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
   }
   .mui{
     /* border: 2px solid black; */
     width: 70vw;
+    height: 50% !important;
     margin: auto;
   }
   .hero .hero-img {
