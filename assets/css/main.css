@@ -80,6 +80,7 @@ h6 {
   color: var(--heading-color);
 }
 
+
 @media (max-width: 480px) {
   .header .logo img {
     max-height: 350px;
